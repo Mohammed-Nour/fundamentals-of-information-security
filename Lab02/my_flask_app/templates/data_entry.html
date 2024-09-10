@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Entry Form</title>
+</head>
+<body>
+    <h1>Data Entry</h1>
+    <form action="/data_entry" method="POST">
+        <label for="entry_text">Enter Data:</label>
+        <input type="text" id="entry_text" name="entry_text" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Existing Entries</h2>
+    <ul>
+        {% for entry in entries %}
+            <li>{{ entry[1] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
