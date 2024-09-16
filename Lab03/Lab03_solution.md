@@ -187,19 +187,12 @@ Another example:
 
    ![alt text](image-28.png)
 
-3. Remove the executable secduled task C:\Windows\SysWOW64\schtasks.exe
-
-   ![alt text](image-29.png)
-
-4. Remove the executable C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe
-
-   ![alt text](image-30.png)
 
 5. restart the configuration C:\Users\admin\AppData\Roaming\vkl.exe" to its previous value or defualt one.
 
    ![alt text](image-31.png)
 
-6. Remove the script files C:\Windows\SysWOW64\wscript.exe, "C:\WINDOWS\System32\WScript.exe", "C:\Users\admin\AppData\Local\Temp\install.vbs" 
+6. Remove the script files  "C:\Users\admin\AppData\Local\Temp\install.vbs" 
 
    ![alt text](image-32.png)
 
@@ -216,8 +209,3 @@ Another example:
    ![alt text](image-34.png)
 
 ---
-
-
-<!-- ask him about it to do static analysis -->
-
-<!-- https://th3m4rk5man.medium.com/static-malware-examination-5614c5773d22 -->
